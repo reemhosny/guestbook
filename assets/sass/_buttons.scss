@@ -1,0 +1,33 @@
+@import "./mixins";
+
+.btn {
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 60px;
+  @include center-flex();
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-login {
+  background: #f3f0ec;
+  color: black;
+  &:hover,
+  &:focus {
+    background: $secondColor;
+    color: white;
+  }
+}
+
+.btn-sign-up {
+  background: $mainColor;
+  color: white;
+  &:hover,
+  &:focus {
+    background: #ebb754;
+  }
+}
