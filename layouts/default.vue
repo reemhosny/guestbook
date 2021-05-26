@@ -1,7 +1,13 @@
 <template>
-  <div>
+  <div class="wrapper main-layout">
+    <!-- App Header -->
     <appHeader />
-    <nuxt />
+
+    <!-- View Pages -->
+    <main class="view-page">
+      <nuxt />
+    </main>
+    <appFooter />
   </div>
 </template>
 
