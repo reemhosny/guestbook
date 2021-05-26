@@ -2,7 +2,7 @@
   <header>
     <nav class="nav container">
       <!--app logo-->
-      <nuxt-link to="/" class="d-flex nav-item">
+      <nuxt-link to="/" class="nav-item">
         <img src="~/assets/images/logo.png" alt="logo" class="logo" />
         <span class="nav__slogan">Adventure Begins</span>
       </nuxt-link>
