@@ -16,13 +16,15 @@
       <div class="input-field mb-4">
         <input
           type="password"
-          placeholder="password"
+          placeholder="Password"
           name="password"
           class="form-input"
         />
       </div>
 
-      <!-- <nuxt-link to="/">Forgot your password?</nuxt-link> -->
+      <nuxt-link to="/" class="forgot-password"
+        >Forgot your password?</nuxt-link
+      >
 
       <button class="btn btn--gold my-4">Log In</button>
       <div class="mt-4">
