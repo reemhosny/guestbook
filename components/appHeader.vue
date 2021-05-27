@@ -3,7 +3,7 @@
     <nav class="nav container">
       <!--app logo-->
       <nuxt-link to="/" class="nav-item">
-        <img src="~/assets/images/logo.png" alt="logo" class="logo" />
+        <img src="~/assets/images/logo.png" alt="logo" class="logo m-auto" />
         <span class="nav__slogan">Adventure Begins</span>
       </nuxt-link>
       <div class="d-flex">

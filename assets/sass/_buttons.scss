@@ -18,7 +18,7 @@
 
 .btn-login {
   background: #f3f0ec;
-  color: black;
+  color: $thirdColor;
   &:hover,
   &:focus {
     background: $secondColor;
@@ -26,11 +26,19 @@
   }
 }
 
-.btn-sign-up {
+.btn-sign-up,
+.btn--gold {
   background: $mainColor;
   color: white;
   &:hover,
   &:focus {
     background: #ebb754;
   }
+}
+
+.btn--gold {
+  margin: auto;
+  width: 90%;
+  border-radius: 5px;
+  font-size: 16px;
 }
