@@ -7,20 +7,20 @@
       </div>
 
       <!--Add new guest text-->
-    </div>
-
-    <div class="col-md-4 col-12">
-      <!-- <guestList /> -->
+      <div class="col-md-4 col-12">
+        <addNewGuest />
+      </div>
     </div>
   </section>
 </template>
 
 <script>
 import guestList from "@/components/guestList";
-
+import addNewGuest from "@/components/addNewGuest";
 export default {
   components: {
     guestList,
+    addNewGuest,
   },
 };
 </script>

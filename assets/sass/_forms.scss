@@ -53,8 +53,16 @@
   }
 }
 
+.h-400 {
+  height: 400px;
+}
+
 .new-account,
 .forgot-password {
   color: $thirdColor;
   font-weight: bold;
+}
+
+.h-90 {
+  height: 90px !important;
 }

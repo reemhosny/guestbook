@@ -48,4 +48,8 @@
   background-color: $secondColor;
   color: white;
   border-radius: 5px;
+  &:hover,
+  &:focus {
+    opacity: 0.9;
+  }
 }
