@@ -100,3 +100,11 @@ header {
 .main-layout {
   padding-top: 100px;
 }
+
+/// guest list //
+.guest-list {
+  &__owner {
+    font-weight: 600;
+    color: black;
+  }
+}
