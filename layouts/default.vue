@@ -7,7 +7,6 @@
     <main class="view-page">
       <nuxt />
     </main>
-    <appFooter />
   </div>
 </template>
 
