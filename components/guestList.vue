@@ -8,9 +8,24 @@
       <p class="guest-list__text">
         {{ guest.content }}
       </p>
-      <button class="btn btn-delete" @click="deleteGuest(guest.id)">
-        Delete
-      </button>
+
+      <!-- show if user logged in btns -->
+      <div class="d-flex mt-3">
+        <!--Reply to message -->
+        <button class="btn btn-reply" @click="replyToGuest(guest.id)">
+          Reply
+        </button>
+
+        <!--Edit Message -->
+        <button class="btn btn-edit mx-3" @click="updateGuest(guest.id)">
+          Edit
+        </button>
+
+        <!--Delete message -->
+        <button class="btn btn-delete" @click="deleteGuest(guest.id)">
+          Delete
+        </button>
+      </div>
     </div>
   </section>
 </template>

@@ -44,12 +44,23 @@
   font-size: 16px;
 }
 
-.btn-delete {
+.btn-delete,
+.btn-edit,
+.btn-reply {
   background-color: $secondColor;
   color: white;
   border-radius: 5px;
+  height: 36px;
   &:hover,
   &:focus {
     opacity: 0.9;
   }
+}
+
+.btn-edit {
+  background-color: $mainColor;
+}
+
+.btn-reply {
+  background-color: #748194;
 }
