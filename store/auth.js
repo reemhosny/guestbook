@@ -8,7 +8,7 @@ export const mutations = {
     state.userData = payload;
     state.isLoggedIn = true;
     localStorage.setItem("userInfo", JSON.stringify(payload));
-    localStorage.setItem("accessToken", payload.jwt);
+    localStorage.setItem("accessToken", payload.token);
   },
   checkLogedIn(state) {
     if (localStorage.getItem("accessToken")) {

@@ -56,7 +56,7 @@ export default {
       console.log("login", this.form);
       login(this.form).then((res) => {
         this.form = "";
-        // this.$store.commit("auth/setUserData", res.data.user);
+        this.$store.commit("auth/setUserData", res.data);
         // localStorage.setItem("userID", res.data.user.id);
         // localStorage.setItem("loggedIn", (this.logged = true));
         this.$router.push("/");
